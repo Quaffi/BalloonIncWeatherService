@@ -1,0 +1,12 @@
+body {
+  background: #fdb87d;
+  font-family: FuturaHandwritten;
+}
+
+.weather-app {
+  margin: 0 auto;
+  max-width: 600px;
+}
+h1 {
+  font-family: FuturaHandwritten;
+}
