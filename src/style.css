@@ -1,12 +1,53 @@
-body {
+.body {
   background: #fdb87d;
   font-family: FuturaHandwritten;
 }
 
 .weather-app {
   margin: 0 auto;
-  max-width: 600px;
+
+  max-width: 900px;
+  background: #ffe8d5;
+  border: 1.5px solid #393e46;
+  border-radius: 12px;
 }
-h1 {
+.weather-today-block {
+  background: #fdb87d;
+  border: 1.5px solid #393e46;
+  border-radius: 12px;
+  margin: 0px 40px;
+  padding: 15px;
+}
+.headline {
   font-family: FuturaHandwritten;
+  font-size: 35px;
+  text-align: center;
+  padding: 25px 40px;
+}
+.block-1 {
+  padding: 20px 40px 40px;
+}
+.search-button {
+  border: 1.5px solid #393e46;
+  border-radius: 12px;
+}
+.temperature {
+  padding: 20px;
+}
+.temperature strong {
+  line-height: 1;
+}
+ul {
+  padding: 20px;
+  list-style-type: none;
+}
+input {
+  border: 1.5px solid #393e46;
+  border-radius: 4px;
+}
+p {
+  margin: 0 auto;
+  padding: 8px;
+  text-align: center;
+  font-size: smaller;
 }
